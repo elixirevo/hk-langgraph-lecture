@@ -1,0 +1,32 @@
+[project]
+name = "10-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain",
+    "langchain-core",
+    "langchain-community",
+    "langchain-openai",
+    "langchain-chroma",
+    "langchain-text-splitters",
+    "langgraph",
+    "langsmith",
+    "langchain-tavily",
+    "python-dotenv",
+    "pydantic",
+    "pandas",
+    "matplotlib",
+    "streamlit",
+    "requests",
+    "beautifulsoup4",
+    "mcp",
+    "ipykernel>=7.2.0",
+    "deepagents>=0.5.3",
+    "langchain-mcp-adapters>=0.2.2",
+    "arxiv>=3.0.0",
+    "pymupdf>=1.27.2.2",
+    "langgraph-checkpoint-sqlite>=3.0.3",
+    "pytz>=2026.1.post1",
+]
